@@ -24,17 +24,13 @@
   }
   .advantages__heder {
     color: #212121;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
+    @include font(14px, bold, 16px);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
   }
   .advantages__text {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
+    @include font(14px, normal, 24px);
     letter-spacing: 0.03em;
     color: #757575;
   }
